@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "5dc6d20c-a67d-488f-affa-e04e3b5a8e9b",
+		"name": "Right Car",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9493141"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "mobile",
+									"value": "1017827785",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/user/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Requests",
+			"item": [
+				{
+					"name": "ETA",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "pick_lat",
+									"value": "29.076361",
+									"type": "text"
+								},
+								{
+									"key": "pick_lng",
+									"value": "31.097000",
+									"type": "text"
+								},
+								{
+									"key": "drop_lat",
+									"value": "30.044420",
+									"type": "text"
+								},
+								{
+									"key": "drop_lng",
+									"value": "31.235712",
+									"type": "text"
+								},
+								{
+									"key": "ride_type",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/request/eta",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"request",
+								"eta"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://app.right-car.net/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZDBhMTkzODQ1YjMyZWIyYTNmMGI1MzU5YTAyNjFiOTMwMDk5ZWI5ZTkzZDVhYTkyODBhMTllZGU4ZTFjN2MwNDExNWE0ZGU5ZGZlNGMzYzciLCJpYXQiOjE2OTI2MjUwNzEuOTM5NDg0LCJuYmYiOjE2OTI2MjUwNzEuOTM5NDkyLCJleHAiOjE2OTM0ODkwNzEuOTIxNzcsInN1YiI6IjQiLCJzY29wZXMiOltdfQ.RYd4_OLHejxThpb4z_GBSKOHw3v5O_w2UQ_8yya1umHE8HmSN4Y5tYvF8FTkblSOFJ9eIg-3mkPecTyswdH-yETn6qwD2skclCga2gv3AhwYSUSgcLw3qKUZYvyNXcaSpOvTpDeD6YsLc5yqXhREI_jPZq4iT6ufvjgQNdQrdXFZSI4z1cQkxuO-c-SllT-2HKEDqT4zvcpswE6YxPsFebK7fNaevJMQwYcV0dmyt7XT8jZhzC8hlVQJXqIkG-z2Gnz7yhkUYWchhTQWr-SRFSxV_s5r3B5kbawO99JFw46sklEq0DCsPlLiSLEM78biC-Dwyn_9FwOESsbaXXaP3lHSnrz4wuWAd5jS8ZtdfYNGYNmKB63ljk_MRIaIkmedqiQfP7T4tHL7GaHbFgTqxj7HCqL1saBCiw4l2iwT-cPuoDmalhuJSJjv34SbFvLOfdcab3E-cB3arORNKCG6VoP38slLLgqJOQKze995jrEy3eEcAX9Hkp2u92TJeHlpTkd7vDLH6paGgRvBbHLnKqOohBO2A-8BI6WnJz5LQaUfojjrZ2aQgcR6oXN8ZSbx_D4nn6ZwBnluaLAj1KAYXBhS48mpA37j1KJC4bl-65ta-fQRu0jkHy46lEd4szPTDxX8O2tsODyptjEGKT9zpQMBUOpN1CG1watngB3j58U",
+			"type": "string"
+		}
+	]
+}

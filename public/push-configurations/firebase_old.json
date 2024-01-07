@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tagxi-super-d07e5",
+  "private_key_id": "jjjjjjjjjjjjjjjjjjjjjjjjjj",
+  "private_key": "-----BEGIN PRIVATE KEY----+booAgv5beaXxzC+HXkTu0Yjlfh/DEOKkPJetn7EgDGR9\nh4tWF7Aau7g6DI4PSJSqbDVoUNCESuOCYIcxopil384KWtBOJ+ZSU89f25+YbZKT\nlDEjiSuWkrzGtHvdLTsjjguCsHnMBwqDMxpBCQ2N/r820sPKbZkHGqqhwmGmmQEE\n0Dz/G5nYEoAgHHObvowonAhlHp85MBQV72bGnCCp52lCjp4SAqVaWTm6rwFYfGCu\nImAskWT42sB4HYjR6XGB1wPs7lJlJEKGjrnceQEfaUPIBCk044cDPCU9Ec9DPbt7\nmvKUwHuZAgMBAAECggEAHDRIT6Ov+VtaEwpNmTZZ9O5XOMrsgN5372xC5W93flvT\nmt2bVtT1W4c/wOy+S2iwzWsyAfo/4I3noGTo3GbXclFPrKXnERY8vIuIhyacLZ0F\nAn2OeZYDTrj0sj/PkFtYEpmoF+dYYwTH1nvAXJmIj/4agqSKCF1pFzPlFHEq+qgX\ne81zvpoi8JBeECzS24JocwbCjLwok/KoO0w+ff3hOZ79XarIJPx9VuFI3fJ+TMWw\nIDiaM7loZ3Yv34n7REr6YMAFzX2mLS268/axZDcuJx6M8ATf2eC6HZh6UU7tzEbp\nPHE4JQJmdox7+ZoiqcJ6S8+RpHuqFtz2pbl6pNjGQQKBgQD0oSDGBG2yACaFgkNE\nEm2Vsx44mLEYKVKIuIm+a/9OnLN0rG3lV/v3Rsn9+/Ja+7UfEo9Tg0IALGsTbjZA\nhV7Km2Id2eKNYplvSqt8c7m8e/AIgRWfgtm+W/Mf/MokWBbGqCcauSbBMem+aE3j\nV74e3VxrJxshBKQs1L9EoUWp4QKBgQDzu/6FjleNTdpVirHNn/nir6E0NPZwaYCP\nHwswRWhM9Sgo59OgCakrLAH3d+1NB5p1mcx2HtNSEL6GJKt/g+gYyPfZXyi8KEZn\nPdDTrVcoi/2QHgDkPpFAm+Q7XI6wcYbRfeSjmzQCdqxE0RFZphxt8/XjlTMetTUR\ncKNUpy+4uQKBgCEuDZzuEtbW0GLBZVBBU52/WrUAeNy3Fhu3M++hBFLsTCbiEFHQ\nGjvS3SjW2GtgwpNBWDFSl0wgujE7fJ5JuK6wXqF/4QueOQNwVEwgAiw/fzIYGA+3\nlsMMA7Dt/5joXcZ6Hjuwq0H+/B44VYAlcYMMMTHTbwmOcJooDP1JBoLhAoGBALdc\nC2tAHV+BXSqTT5XIrv25cMXMvkTtKbkB+rHS1Vdn61FyrgMsoWaIEeaxAwW7HZkx\nHd8S65lGXX6fIaGpgzb6IXMXIpcCmYxbtbk5I2OuhRAhcjxDUZTQck+yHupgTbNW\nSWZHgUYFLy4KNkpCLAsPyEDw4mdMnWLEYStzJvSJAoGBAOtFpmaPhIZaAX8BZYwe\nDCKhQvOfdGGJs/oyfPJ6uc/0qFPDmfG9SiTY9MY0P5LhJcwLDcmTP1YGmXDTsMla\nnQB2k7y5nMq0sYL5X5+TlrZRCUIV/yQrdTgFvjwR+1cTLicJnxziqvEozzKAIfhq\nerVVZ/GIXap+YrAk0b+sfnM6\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-qhfkh@tagxi-superserviceaccount.com",
+  "client_id": "117435845542241868473",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-qhfkh%40r-d07e5.iam.gserviceaccount.com"
+}
